@@ -1,6 +1,12 @@
 # DiscogsEx
 
-**TODO: Add description**
+An Elixir library for Discogs API 2.0.
+
+### Endpoints
+
+ * [/database/search](https://www.discogs.com/developers/#page:database,header:database-search)
+
+More to come!
 
 ## Installation
 
@@ -9,7 +15,7 @@ by adding `discogs_ex` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:discogs_ex, "~> 0.1.0"}]
+  [{:discogs_ex, "~> 0.0.1"}]
 end
 ```
 
