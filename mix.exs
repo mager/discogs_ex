@@ -59,7 +59,6 @@ defmodule DiscogsEx.Mixfile do
       {:meck, "~> 0.8", only: :test},
       {:excoveralls, "~> 0.7", only: :test},
       {:exvcr, "~> 0.8", only: :test},
-      {:inch_ex, "~> 0.5", only: [:dev, :test]},
     ]
   end
 
