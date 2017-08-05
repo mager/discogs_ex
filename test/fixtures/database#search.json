@@ -1,0 +1,24 @@
+[
+  {
+    "request": {
+      "body": "\"\"",
+      "headers": {
+        "User-agent": "DiscogsExTestClient",
+        "Authorization": "Discogs key=key, secret=secret"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.discogs.com/database/search?q=Demi+Lovato&title=sorry+not+sorry"
+    },
+    "response": {
+      "body": "{\"pagination\": {\"per_page\": 50, \"pages\": 1, \"page\": 1, \"urls\": {}, \"items\": 3}, \"results\": [{\"style\": [\"Vocal\"], \"thumb\": \"https:\/\/api-img.discogs.com\/F2I6nvCRGxZUoJuws-ouhonFfIA=\/fit-in\/150x150\/filters:strip_icc():format(jpeg):mode_rgb():quality(40)\/discogs-images\/R-10559613-1499887916-1414.jpeg.jpg\", \"format\": [\"File\", \"AAC\", \"Single\"], \"country\": \"Unknown\", \"barcode\": [\"1256232718\"], \"uri\": \"\/Demi-Lovato-Sorry-Not-Sorry\/release\/10559613\", \"community\": {\"want\": 0, \"have\": 2}, \"label\": [\"Hollywood Records\", \"Island Records\", \"Safehouse Records\", \"Hollywood Records, Inc.\"], \"catno\": \"none\", \"year\": \"2017\", \"genre\": [\"Pop\"], \"title\": \"Demi Lovato - Sorry Not Sorry\", \"resource_url\": \"https:\/\/api.discogs.com\/releases\/10559613\", \"type\": \"release\", \"id\": 10559613}, {\"style\": [\"Vocal\"], \"thumb\": \"https:\/\/api-img.discogs.com\/F2I6nvCRGxZUoJuws-ouhonFfIA=\/fit-in\/150x150\/filters:strip_icc():format(jpeg):mode_rgb():quality(40)\/discogs-images\/R-10559613-1499887916-1414.jpeg.jpg\", \"format\": [\"File\", \"AAC\", \"Single\"], \"country\": \"Unknown\", \"barcode\": [\"1256232718\"], \"uri\": \"\/Demi-Lovato-Sorry-Not-Sorry\/master\/1215612\", \"community\": {\"want\": 0, \"have\": 2}, \"label\": [\"Hollywood Records\", \"Island Records\", \"Safehouse Records\", \"Hollywood Records, Inc.\"], \"catno\": \"none\", \"year\": \"2017\", \"genre\": [\"Pop\"], \"title\": \"Demi Lovato - Sorry Not Sorry\", \"resource_url\": \"https:\/\/api.discogs.com\/masters\/1215612\", \"type\": \"master\", \"id\": 1215612}, {\"style\": [], \"thumb\": \"https:\/\/api-img.discogs.com\/3LE98zfpGeHF6GTM2N1C1w5GpdM=\/fit-in\/150x150\/filters:strip_icc():format(jpeg):mode_rgb():quality(40)\/discogs-images\/R-10562777-1499954086-8015.jpeg.jpg\", \"format\": [\"File\", \"FLAC\", \"Single\"], \"country\": \"Europe\", \"barcode\": [\"0060255782097\"], \"uri\": \"\/Demi-Lovato-Sorry-Not-Sorry\/release\/10562777\", \"community\": {\"want\": 0, \"have\": 0}, \"label\": [\"Island Records\", \"Hollywood Records\", \"Safehouse Records\", \"Island Records\", \"Island Records\", \"UMG Recordings, Inc.\", \"Hollywood Records\", \"Hollywood Records\", \"Safehouse Records LLC\", \"Safehouse Records LLC\"], \"catno\": \"none\", \"year\": \"2017\", \"genre\": [\"Pop\"], \"title\": \"Demi Lovato - Sorry Not Sorry\", \"resource_url\": \"https:\/\/api.discogs.com\/releases\/10562777\", \"type\": \"release\", \"id\": 10562777}]}",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Status": "200 OK",
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

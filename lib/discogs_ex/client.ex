@@ -7,6 +7,9 @@ defmodule DiscogsEx.Client do
   @spec new() :: t
   def new(), do: %__MODULE__{}
 
+  @spec new(auth) :: t
+  def new(auth),  do: %__MODULE__{auth: auth}
+
   @spec new(auth, binary) :: t
   def new(auth, endpoint) do
     endpoint = if String.ends_with?(endpoint, "/") do
